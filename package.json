@@ -1,0 +1,22 @@
+{
+  "name": "domo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx hyext start",
+    "release": "npx hyext release",
+    "config": "npx hyext config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@hyext/builder-beyond": "^4.5.7"
+  },
+  "dependencies": {
+    "@hyext-beyond/core": "3.0.0",
+    "@hyext/hy-ui": "2.0.0"
+  }
+}
